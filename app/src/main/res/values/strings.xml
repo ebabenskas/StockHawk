@@ -35,5 +35,6 @@
     <string name="stock_details">Stock details</string>
 
     <string name="history">history</string>
+    <string name="empty_widget_info">No one stock added</string>
 
 </resources>

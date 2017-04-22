@@ -35,7 +35,7 @@ import butterknife.ButterKnife;
 import timber.log.Timber;
 
 public class StockDetailsActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor> {
-    private static final String STOCK  = "STOCK";
+    public static final String STOCK  = "STOCK";
     private static final int DETAILS_LOADER = 1;
     private static final String STATE_STOCK_NAME = "name";
     private static final String STATE_STOCK_HISTORY = "history";
