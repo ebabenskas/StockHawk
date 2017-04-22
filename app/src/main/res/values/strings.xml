@@ -36,5 +36,9 @@
 
     <string name="history">history</string>
     <string name="empty_widget_info">No one stock added</string>
+    <string name="error_empty">Stock name empty!</string>
+    <string name="error_not_exist">Stock name not exist!</string>
+    <string name="error_network">No network connectivity! Check internet connection!</string>
+
 
 </resources>
