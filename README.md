@@ -1,11 +1,11 @@
 # Stock Hawk
 
-This is the starter code for project 3 in Udacity's [Android Developer Nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801). 
+This is an Android app for monitoring stocks.
+This is Project 3 in the Google Android Scholarship
 
-Check out Udacity's [Advanced Android App Development](https://www.udacity.com/course/advanced-android-app-development--ud855) course to get the skills you'll need to complete this project!
+#### Screenshots
 
-If you're a Nanodegree student check your work againt the project [rubric](https://review.udacity.com/#!/rubrics/140/view), then click [here](https://classroom.udacity.com/nanodegrees/nd801/parts/8011345406/project) to submit your project.
-
-# Contrubuting
-
-Pull requests gratefully accepted.
+<img src="https://raw.githubusercontent.com/ebabenskas/StockHawk/master/screenshots/Main.png" width="18%"></img>
+<img src="https://raw.githubusercontent.com/ebabenskas/StockHawk/master/screenshots/Add_dialog.png" width="18%"></img>
+<img src="https://raw.githubusercontent.com/ebabenskas/StockHawk/master/screenshots/Details.png" width="18%"></img>
+<img src="https://raw.githubusercontent.com/ebabenskas/StockHawk/master/screenshots/Widget.png" width="18%"></img>
