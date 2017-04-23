@@ -35,4 +35,12 @@
     <string name="add_stock">Add stock to list</string>
     <string name="cancel_stock">Close add stock dialog</string>
 
+    <string name="error_wrong_uri">Unknown URI:</string>
+    <string name="error_fetch_stock">Error fetching stock quotes</string>
+    <string name="debug_intent_handled">Intent handled</string>
+    <string name="debug_running_job">Running sync job</string>
+    <string name="debug_running_task">Scheduling a periodic task</string>
+    <string name="debug_check_stock">Check stock: </string>
+    <string name="error_parsing">YahooAPI parsing errors: </string>
+    <string name="error_not_found">YahooAPI not found errors:  </string>
 </resources>

@@ -4,6 +4,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.content.AsyncTaskLoader;
 
+import com.udacity.stockhawk.R;
+
 import java.io.IOException;
 
 import timber.log.Timber;
@@ -36,14 +38,14 @@ public class StockCheckLoader extends AsyncTaskLoader<Boolean> {
     public Boolean loadInBackground() {
         String symbol = args.getString(STOCK);
         try {
-            Timber.d("Check stock: " + symbol);
+            Timber.d(getContext().getString(R.string.debug_check_stock) + symbol);
             Stock stock = YahooFinance.get(symbol);
             return stock.getQuote().getPrice() != null;
         } catch (IOException e) {
-            Timber.e("YahooAPI not found errors: " + e.getMessage());
+            Timber.e(getContext().getString(R.string.error_parsing) + e.getMessage());
             return false;
         } catch (Exception e) {
-            Timber.e("YahooAPI parsing errors: " + e.getMessage());
+            Timber.e(getContext().getString(R.string.error_not_found) + e.getMessage());
             return false;
         }
     }

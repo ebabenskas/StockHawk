@@ -3,6 +3,8 @@ package com.udacity.stockhawk.sync;
 import android.app.IntentService;
 import android.content.Intent;
 
+import com.udacity.stockhawk.R;
+
 import timber.log.Timber;
 
 
@@ -14,7 +16,7 @@ public class QuoteIntentService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Timber.d("Intent handled");
+        Timber.d(getString(R.string.debug_intent_handled));
         QuoteSyncJob.getQuotes(getApplicationContext());
     }
 }
