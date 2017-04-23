@@ -79,6 +79,9 @@ public class AddStockDialog extends DialogFragment implements LoaderManager.Load
                     addStock();
                 }
             });
+            positiveButton.setContentDescription(getString(R.string.add_stock));
+            Button cancelButton = d.getButton(Dialog.BUTTON_NEGATIVE);
+            cancelButton.setContentDescription(getString(R.string.cancel_stock));
         }
     }
 

@@ -107,6 +107,9 @@ public class StockDetailsActivity extends AppCompatActivity implements LoaderMan
         dataSet.setColor(ContextCompat.getColor(this, R.color.colorPrimary));
         dataSet.setCircleColor(ContextCompat.getColor(this, R.color.colorPrimary));
         dataSet.setLineWidth(1);
+        dataSet.setDrawFilled(true);
+        dataSet.setDrawCircles(false);
+        dataSet.setFillColor(ContextCompat.getColor(this, R.color.colorPrimary));
         LineData lineData = new LineData(dataSet);
         lineChart.setData(lineData);
         XAxis xAxis = lineChart.getXAxis();

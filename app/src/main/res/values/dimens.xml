@@ -2,4 +2,16 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="widget_height">110dp</dimen>
     <dimen name="widget_width">250dp</dimen>
+    <dimen name="chart_margin">10dp</dimen>
+    <dimen name="add_fab_margin">16dp</dimen>
+    <dimen name="add_dialog_input_margin_4dp">4dp</dimen>
+    <dimen name="add_dialog_input_margin_16dp">16dp</dimen>
+    <dimen name="add_dialog_error_margin">8dp</dimen>
+    <dimen name="add_dialog_error_text_size">16sp</dimen>
+    <dimen name="stock_list_item_padding">16dp</dimen>
+    <dimen name="stock_list_item_price_margin">10dp</dimen>
+    <dimen name="stock_list_item_change_padding">3dp</dimen>
+    <dimen name="widget_padding">10dp</dimen>
+    <dimen name="widget_title_text_size">24sp</dimen>
+    <dimen name="widget_title_padding">8dp</dimen>
 </resources>
